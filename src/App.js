@@ -10,6 +10,7 @@ import ProblemList from "./components/pages/problemList";
 import ExpertList from "./components/pages/expertList";
 import Register from "./components/auth/register";
 import Footer from "./components/layouts/footer";
+import SolutionForm from "./components/pages/solutionForm";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path="/post-a-problem" component={PostAProblem} />
             <Route path="/problem-list" component={ProblemList} />
             <Route path="/expert-list" component={ExpertList} />
+            <Route path="/solution-form" component={SolutionForm} />
           </Switch>
           <Footer />
         </div>
